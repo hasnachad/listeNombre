@@ -7,6 +7,7 @@ h1{
 	text-align: center;
 	padding: 10px;
 	border-radius: 40px;
+    box-shadow: 6px 6px 0px black;
 
 }
 ul{
@@ -20,10 +21,11 @@ li{
 	align-items: center;
 	justify-content: center;/* Les objets flexibles sont groupés au centre */
 	align-content: center;/*Les rangées sont regroupées au milieu du conteneur flexible*/
-	display: flex;
+	display: inline-flex;
 	list-style: none;
 	width: 39px;
 	height: 39px;
 	border: 1px solid blue;
+	border-radius: 10px 5px 10px 5px;
 
 }
