@@ -2,12 +2,28 @@ html{
 	background-color: yellow;
 	
 }
+h1{
+	background-color: blue;
+	text-align: center;
+	padding: 10px;
+	border-radius: 40px;
 
-li {
-	display: inline-flex;
+}
+ul{
+	display: flex;
+	flex-wrap: wrap;/* il va à la ligne qd plus de place*/
+	justify-content: center;/* Les objets flexibles sont groupés au centre */
+	padding: 20px;
+}
+
+li{
+	align-items: center;
+	justify-content: center;/* Les objets flexibles sont groupés au centre */
+	align-content: center;/*Les rangées sont regroupées au milieu du conteneur flexible*/
+	display: flex;
 	list-style: none;
-	width: 40px;
-	height: 40px;
-	border-style: solid;
+	width: 39px;
+	height: 39px;
+	border: 1px solid blue;
 
 }
